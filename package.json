@@ -1,0 +1,20 @@
+{
+  "name": "web-server",
+  "version": "0.0.1",
+  "description": "Server web para curso Node Js",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Edwin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.2"
+  }
+}
